@@ -5,9 +5,9 @@ let tanggal = 5;
 let bulan = 2;
 let hasil = "salah";
 
-if (tanggal > 0 && tanggal < 32  && bulan > 0 && bulan < 12) {
+if (tanggal > 0 && tanggal < 32  && bulan > 0 && bulan < 12) 
     hasil = "zodiak belum dibuat";
-    } if (bulan == 1) {
+    if (bulan == 1) {
         if (tanggal > 0 && tanggal < 20) {
             hasil = "capricorn";
         } 
@@ -82,4 +82,3 @@ if (tanggal > 0 && tanggal < 32  && bulan > 0 && bulan < 12) {
 
     document.querySelector("#content").innerHTML = `<h1>${hasil}</h1>`;
     document.querySelector("#content").innerHTML = "<h1>" + hasil + "</h1>";
-
