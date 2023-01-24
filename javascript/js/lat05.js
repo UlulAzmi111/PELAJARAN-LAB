@@ -118,15 +118,12 @@ let zodiak = (bln, tgl) => {
     }
 
     return hasil;
-    docum
  }
  
  console.log(zodiak(bln, tgl));
 
 
-
-
-
+ 
 
 let lulus = (nilai) => {
     let kkm = 80;
